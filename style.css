@@ -194,7 +194,8 @@ body {
 }
 
 .abonement-block h2 {
-  margin: 0 auto;
+  margin: 0;
+  align-self: center;
   padding-top: 33px;
   font-size: 17px;
   font-style: normal;
@@ -216,8 +217,8 @@ body {
 .abonement-block .abonement-list ul {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   flex-wrap: wrap;
-  align-content: center;
   margin: 0 auto;
 }
 
@@ -250,8 +251,8 @@ body {
 /* Кнопка "Смотреть" */
 .button-block {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0;
+  align-self: center;
   margin-top: 25px;
   margin-bottom: 36px;
   transition: 0.15s linear;
