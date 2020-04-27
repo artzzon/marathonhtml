@@ -245,6 +245,10 @@ body {
   margin-top: 35px;
 }
 
+.abonement-block .abonement-list ul .abonement-item:last-child {
+  padding-bottom: 24px;
+}
+
 .abonement-block .abonement-list ul .abonement-item h3 {
   margin: 0 auto;
   font-family: "Playfair Display";
@@ -270,7 +274,6 @@ body {
   margin-top: 25px;
   margin-bottom: 36px;
   transition: 0.15s linear;
-  border: 2px solid red;
 }
 
 .theatre-button {
@@ -298,15 +301,14 @@ body {
 
 /* Подвал */
 footer {
-  margin: 50px auto 0 auto;
+  margin-top: 50px;
   padding-bottom: 46px;
   background-color: #575757;
 }
 
 .footer-heading h1 {
-  margin: 0 auto;
-  margin-top: 25px;
-  margin-bottom: 30px;
+  padding-top: 26px;
+  margin-bottom: 32px;
   font-family: "Playfair Display";
   font-weight: 900;
   font-size: 28px;
