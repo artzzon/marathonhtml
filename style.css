@@ -1,0 +1,392 @@
+html,
+body {
+  margin: 0 auto;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+/* Шапка */
+/* Заголовок */
+.main-heading {
+  margin-top: 60px;
+  margin-bottom: 46px;
+  text-align: center;
+}
+
+.main-heading h1 {
+  font-family: "Playfair Display";
+  font-size: 35px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.main-heading h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Навигация */
+.nav-menu ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+.menu-item {
+  margin-right: 51px;
+  margin-bottom: 47px;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  list-style-type: none;
+  transition: 0.15s linear;
+}
+
+.menu-item:hover {
+  color: #FF7931;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Основная часть */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/* Рекламный баннер */
+/* Задний фон */
+.underwater-hotel {
+  display: flex;
+  flex-direction: column;
+  background: url("img/underwater-hotel.png") center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+/* Иконка-ссылка */
+.underwater-hotel .hotel a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.underwater-hotel .hotel img {
+  margin-top: 46px;
+  transition: 0.15s linear;
+}
+
+.underwater-hotel .hotel img:hover {
+  filter: saturate(5);
+}
+
+/* Заголовок */
+.underwater-hotel .hotel a h2 {
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* Описание */
+.underwater-hotel .paragraph {
+  margin: 0 auto;
+  margin-top: 135px;
+  padding-bottom: 52px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+/* Блок обзоров */
+.overview-block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 44px;
+  margin-bottom: 51px;
+}
+
+.overview-block ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.overview-block h2 {
+  margin: 0 auto;
+  font-size: 17px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.overview-block h2 a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.15s linear;
+}
+
+.overview-block h2:hover {
+  color: #FF7931
+}
+
+.overview-list li a h3 {
+  margin: 0 auto;
+  padding-top: 20px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 31px;
+  transition: 0.15s linear;
+}
+
+.overview-list ul li:nth-child(2) {
+  margin-left: 29px;
+  margin-right: 29px;
+}
+
+.overview-list li {
+  list-style-type: none;
+}
+
+.overview-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.overview-list li:hover h3 {
+  color: #FF7931;
+}
+
+.overview-list li p {
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 150%;
+}
+
+/* Размытие картинок
+.overview-list li img {
+  transition: 150ms linear;
+  filter: blur(3px); 
+} */
+
+/* Удаление размытия при наведении
+.overview-list li:hover img {
+  transition: 150ms linear;
+  filter: blur(0px);
+} */
+
+/* Абонементы */
+.abonement-block {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #F7F7F7;
+  background-image: url("img/circle.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.abonement-block h2 {
+  margin: 0;
+  align-self: center;
+  padding-top: 33px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.abonement-list {
+  padding: 0;
+  margin: 0;
+  align-self: center;
+}
+
+/* Полосы между абзацами */
+.abonement-list ul hr {
+  margin-top: 23.83px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 1px;
+  width: 100px;
+}
+/*_______________________*/
+
+.abonement-block .abonement-list ul {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.abonement-block .abonement-list ul .abonement-item {
+  margin: 0 auto;
+  margin-top: 24px;
+  list-style-type: none;
+}
+
+.abonement-block .abonement-list ul .abonement-item:first-child {
+  margin-top: 35px;
+}
+
+.abonement-block .abonement-list ul .abonement-item h3 {
+  margin: 0 auto;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  text-align: center;
+}
+
+.abonement-block .abonement-list ul .abonement-item p {
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 150%;
+}
+
+/* Кнопка "Смотреть" */
+.button-block {
+  display: flex;
+  margin: 0;
+  align-self: center;
+  margin-top: 25px;
+  margin-bottom: 36px;
+  transition: 0.15s linear;
+}
+
+.theatre-button {
+  padding-left: 30px;
+  padding-top: 18px;
+  background: #FF7931;
+  box-sizing: border-box;
+  width: 170px;
+  height: 47px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-image: url("img/arrow-forward.svg");
+  background-position: 80% 55%;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.button-block:hover {
+  filter: saturate(5);
+}
+
+/* Подвал */
+footer {
+  margin: 50px auto 0 auto;
+  padding-top: 26px;
+  padding-bottom: 46px;
+  background-color: #575757;
+}
+
+.footer-heading h1 {
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 28px;
+  text-align: center;
+  line-height: 37px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.footer-heading h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Навигация */
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1170px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.footer-menu ul {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+.footer-menu .footer-list li {
+  margin-right: 51px;
+  margin-bottom: 47px;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  list-style-type: none;
+  color: white;
+}
+
+.footer-menu .footer-list li:hover {
+  color: #FF7931;
+}
+
+.footer-menu .footer-list li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Иконки */
+.footer-icons .footer-list li {
+  display: flex;
+  width: 47px;
+  height: 47px;
+  background-color: #ffffff;
+  margin: 42px 7px 0px 7px;
+  transition: 0.15s linear;
+}
+
+.footer-icons .footer-list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-icons .footer-list li:hover {
+  background-color: #FF7931;
+}
+
+.footer-link {
+  display: flex;
+  flex-grow: 1;
+}
+
+.footer-list img {
+  margin: auto;
+}
